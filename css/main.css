@@ -1,0 +1,275 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Verdana;
+    src: url("../fonts/Verdana Bold.ttf");
+}
+
+@font-face {
+    font-family: Verda;
+    src: url("../fonts/verdana.ttf");
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url("../img4/backgr.png");
+    height: 768px;
+}
+
+.logo-word {
+    color: white;
+    font-family: Verdana;
+    font-weight: bold;
+    margin-top: 0.75em;
+    margin-left: 60px;
+    horiz-align: center;
+    font-size: 15pt;
+}
+
+.journey-logo {
+    margin-bottom: -20px;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.container-header {
+    height: 56px;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.50);
+    /*opacity: 0.5;*/ /*opasity ile yuxarini agardanda o biri sozlerde agarir*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.other-header {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-right: 60px;
+    margin-top: -0.01em;
+}
+
+.cont-head-item {
+    margin-left: 20px;
+}
+
+.welcome {
+    color: white;
+    margin-left: 30px;
+    margin-right: 25px;
+    font-family: Verda;
+    font-size: 11pt;
+}
+
+
+.login-signup {
+    text-decoration: none;
+    font-size: 11pt;
+    color: #3cb878;
+}
+
+
+.main-cointainer {
+    background-color: white;
+    height: 585px;
+    width: 445px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 65px;
+    border-radius: 7px;
+}
+
+.first-line {
+    display: flex;
+    flex-direction: row;
+}
+
+.green {
+    margin-top: 30px;
+}
+
+.in-first-line {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.log {
+    margin-top: 10px;
+    margin-left: 210px;
+    font-family: Verda;
+    font-size: 11pt;
+    color: #3cb878;
+}
+
+.sign {
+    margin-top: 5px;
+    margin-left: 40px;
+    font-family: Verda;
+    font-size: 15pt;
+}
+
+.btn-face {
+    width: 160px;
+    height: 41px;
+    background: #3b5998;
+    color: black;
+    /*font-weight: 600;*/
+    text-decoration: none;
+    border-radius: 5px;
+    margin-left: 60px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.vertical-dash {
+    margin: 0;
+    opacity: 0.3;
+
+}
+
+.face-text {
+    color: white;
+    font-family: Verda;
+    margin-top: 1em;
+}
+
+.face-icon-img {
+    width: 0.6em;
+}
+
+.btn-g {
+    width: 160px;
+    height: 41px;
+    background: #dd4b39;
+    color: black;
+    /*font-weight: 600;*/
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 53px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.google-text {
+    color: white;
+    font-family: Verda;
+    /*margin-top: 1em;*/
+}
+
+.g-img {
+    width: 1.5em;
+}
+
+.second-line {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.third-or-line {
+    display: flex;
+    flex-direction: row;
+    /*justify-content: space-between;*/
+}
+
+.or {
+    opacity: 0.5;
+    margin-left: 32px;
+    margin-top: 4px;
+
+    font-family: Verda;
+    font-size: 14px;
+}
+
+.line1 {
+    opacity: 0.3;
+    margin-left: 60px;
+
+}
+
+.line2 {
+    opacity: 0.3;
+    /*margin-left: -80px;*/
+    margin-left: 27px;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+
+.form {
+    border-radius: 5px;
+    /*padding: 20px;*/
+    width: 74%;
+    text-align: center;
+    margin: auto;
+    font-family: Verda;
+    text-decoration: none;
+}
+
+.submit {
+    width: 100%;
+    background-color: #3cb878;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: Verda;
+}
+
+input[type=text] {
+    font-family: Verda;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.checkbox {
+    background-color: #3cb878;
+    color: #3b5998;
+    font-family: Verda;
+    margin-left: -100px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+
+.after-check {
+    font-family: Verda;
+    font-size: 14px;
+}
+
+.term {
+    text-decoration: none;
+}
+
+.submit {
+    font-size: 16px;
+}
